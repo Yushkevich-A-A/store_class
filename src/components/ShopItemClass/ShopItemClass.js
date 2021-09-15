@@ -26,7 +26,7 @@ class ShopItemClass extends React.Component {
     }
 }
 
-ShopItemFunc.propTypes = {
+ShopItemClass.propTypes = {
     item: PropTypes.exact({
         brand: PropTypes.string,
         title: PropTypes.string,
@@ -38,4 +38,4 @@ ShopItemFunc.propTypes = {
 }
 
 
-export default ShopItemFunc;
+export default ShopItemClass;
